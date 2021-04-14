@@ -1,0 +1,15 @@
+li:empty {   /*li lerimden içi boş olanları seç ve görünmez kıl demektir*/
+
+    background: yellow;
+}
+
+div#total:empty { /*id si total olan div etiketinin içerisi boş ise gösterme demektir.*/
+    display: none;
+}
+
+#total:not(:empty) + div.loading-text {  /*id si total olan div BOŞ DEĞİLSE, bitişiğindeki loading text class ına sahip olan div kaybolsun/gösterilmesin demektir*/
+ 
+    display: none;
+
+
+}

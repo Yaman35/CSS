@@ -1,0 +1,4 @@
+h1, p, #title, .test {  /*h1 etiketimin, p etiketimin, id si title olan etiketlerimin ve classı test olan etiketlerimin rengini sarı yap demektir.*/
+
+    color: greenyellow;
+}

@@ -1,0 +1,39 @@
+:focus {  /*tab basılıp focuslandığında kenarlıklar gözükmeyecek*/
+
+    outline:none;
+}
+
+button:focus {  /*Butona tıklandığında arka plan ve yazı rengi değişecek*/
+
+    background-color: lime;
+    color: red;
+}
+
+input:focus {  /*Text inputa tıklandığında arka plan rengi ve yazı rengi değişecek*/
+
+    border-color: red;
+    color:blue;
+    background-color: lime;
+}
+
+a:focus {   /* Link etiketine tıklandığında arka plan rengi sarı olacak*/ 
+
+    background-color: yellow;
+    text-transform: lowercase;
+}
+
+div:focus { /*Normalde yalnızca focus ile odaklanılmamaz. tabindex ile birlikte kullanırsak tab a basıldığında arka plan rengi mavi olacak*/
+
+    background-color: blue;
+    
+}
+
+li:focus { /*Normalde yalnızca focus ile odaklanılmamaz. tabindex ile birlikte kullanırsak tab a basıldığında arka plan rengi teal olacak*/
+
+    background-color: teal;
+}
+
+ul:focus-within {   /* :focus-within ile ul nin childleri olan li lerden herhangi birine tıklandığında (focus), onun ebeveyni olan ul nin arka planı sarı olsun demektir*/
+
+    background-color: yellow;
+}

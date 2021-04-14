@@ -1,0 +1,15 @@
+div {
+
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    margin: 50px auto;
+    border: 5px solid tomato;
+
+    outline-style: dashed;
+    outline-width: 5px;
+    outline-color: blue;
+    /* outline: 5px dashed blue; şeklinde de yazılabilirdi*/
+
+    outline-offset: 10px; /*Border ile outline arasındaki mesafeyi ayarlamak için kullanılır*/
+}

@@ -1,0 +1,43 @@
+/*Bütün etiketlerin rengini değiştirmeye kalktığımızda  böyle yapacaktık 
+
+h3 {
+    color: blue; 
+}
+
+p {
+    color: blue;
+}
+
+div {
+    color: blue;
+} */
+
+
+.color-blue {       /*class niteliği bu şekilde . ile kullanılır ardından class ismi gelir*/
+    color: blue;   /*class ı color-blue olan bütün etiketleri mavi yap demektir*/
+}
+
+
+.text-bold {        /*class ı text-bold olanların hepsini kalın yap demektir.*/
+    font-weight: bold; /*Yazıyı kalın yapma kodu*/
+}
+
+
+.color-blue.text-bold { /*Etiketlerden class ında hem color-blue hem de text-bold olan bir etiket varsa onun rengini kırmızı yap demektir*/
+    color:red;        /*Görüldüğü üzere üstteki color-blue override edilip text kırmızıya döner*/
+}
+
+
+p.color-blue.text-bold { /*Bu şekilde sadece bir etiket içinde de işlem yaptırılabilir*/
+    color: red;        /*Paragraf etiketlerinin içerisinde class ında hem color-blue hem de text-bold olan varsa onun rengini kırmızı yap demektir*/
+}
+
+
+#paragraf2 {   /*Aslında bu id ye sahip olan etiketin de class ında color-blue var*/
+    color: purple; /*Lakin id nin önceliği oldupundan bununla birlikte rengi mora döner,bu kod kısmının nerede yazıldığının bir önemi yoktur*/
+ }
+
+ p.color-blue.text-bold#paragraf3 { /*Tüm paragraflarımdan class ında hem color-blue hem de text-bold olan ve id si paragraf3 olanın rengini yeşil yap demektir.*/
+
+    color: green;
+ }

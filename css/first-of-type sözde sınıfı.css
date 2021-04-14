@@ -1,0 +1,6 @@
+div:first-of-type {  /*Body içerisindeki div lerden ilk olanı seçer ve arka plan rengini kırmızı yapar*/
+
+    background-color: red;
+}
+
+/*Buradaki örnekte eğer div:first-child kullansaydım arada p etiketi olduğundan bu işlemi yapamazdım*/

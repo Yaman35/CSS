@@ -1,0 +1,14 @@
+h3 + p {    /*h3 etiketinden hemen sonra gelen p etiketinin içindekinin rengini kırmızı yap demektir. Burada ikiside kırmızı olur*/
+
+    color: red;
+}
+
+div + p {
+
+    color: green; /*Aradaki div etikentinden hemen sonra gelen p etiketinin içindekinin rengini yeşil yap demektir*/
+}
+
+div + p span {
+
+    color: blue;  /*Görüleceği üzere div etiketinden hemen sonra gelen p etiketinin span etiketi içindekini rengini değiştiri*/
+}

@@ -1,0 +1,41 @@
+body {
+    
+    background-image: url(https://img-s2.onedio.com/id-602f6ad1b228f20f3ac5ae4d/rev-1/w-635/o-59x69/f-jpg-webp/s-1203945f3f8987fc762e0c1c3141c1a7a1d431c6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-attachment: fixed;
+   
+}
+
+.bg1 {
+
+    height: 400px;
+    background-image: url(https://img-s1.onedio.com/id-602f73246f9490273c7f01ea/rev-0/w-635/f-jpg-webp/s-c2f3342d37faa447b8c8a6686168f3f837fbeadd.webp);
+    background-size: cover;
+    background-attachment: fixed; /*Görselin ilgili yerde sabit kalmasını sağlar,güzel bir görüntü katar*/
+}
+
+.bg2 {
+
+    height: 400px;
+    background-image: url(https://img-s1.onedio.com/id-602f71719c1169ad3b0a1444/rev-0/w-635/f-jpg-webp/s-7c7e8bda871ad220825cbaafc9add5b5faa52f00.webp);
+    background-size: cover;
+    
+}
+
+.bg3 {
+
+    height: 400px;
+    background-image: url(https://img-s1.onedio.com/id-602f6c1c323d6db81c139e7e/rev-0/w-635/f-jpg-webp/s-1985d62d1f20f36fa3abf497607792f7a5ddb0ef.webp);
+    background-size: cover;
+    background-attachment: fixed; /*Görselin ilgili yerde sabit kalmasını sağlar,güzel bir görüntü katar*/
+}
+
+
+

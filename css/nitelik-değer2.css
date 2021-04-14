@@ -1,0 +1,11 @@
+div[class="title"] {  /*div lerin class kısmı title olanları seç ve renigini kırmızı yap*/
+
+    color: red;
+
+}
+
+
+div[class|="box"] {  /*div lerden class kısmının ya tamamı box olanlar ya da - ile ayrılana kadar olan kısmı box olanları seç ve sarı yap demektir*/
+
+    background-color: yellow;
+}

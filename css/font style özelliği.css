@@ -1,0 +1,15 @@
+.p1 {
+    font-style: normal; /*Normal yapar*/
+}
+
+.p2 {
+    font-style: italic;  /*Eğik yapar*/
+}
+
+.p3 {
+    font-style: oblique;  /*Eğik yapar*/
+}
+
+em {
+    font-style: normal; /*Eğik yazıyı böylelikle normal yaptım*/
+}

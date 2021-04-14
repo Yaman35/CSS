@@ -1,0 +1,5 @@
+p::first-letter {   /*Paragrafların ilk harfini seçebilmek ve işlem yapabilmek için kullanılır*/
+
+    font-size: 40px;
+    color:red;
+}

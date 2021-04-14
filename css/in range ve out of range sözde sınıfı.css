@@ -1,0 +1,9 @@
+input:in-range {   /*Seçilen değer belirtilen değerler içerisinde ise arka plan rengini yeşil yap demektir*/
+
+    background-color: green;
+}
+
+input:out-of-range {   /*Seçilen değer belirtilen değerler dışında ise arka plan rengini kırmızı yap demektir*/
+
+    background-color: red;
+}

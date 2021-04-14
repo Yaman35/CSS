@@ -1,0 +1,8 @@
+ul li:nth-of-type(5) {     /*Listenin başından saymaya başlayarak 5.elemeanı seçer ve arka plan rengini değiştir*/
+    background-color: yellow;
+}
+
+li:nth-last-child(6) {    /*Listenin sonundan saymaya başlayarak 6.elemeanı seçer ve arka plan rengini değiştir*/
+
+    background-color: red;
+}

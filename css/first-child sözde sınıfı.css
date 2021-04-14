@@ -1,0 +1,37 @@
+.list li:first-child {  /*class ı list olan ul nin li lerinden ilkini seç ve arka plan rengini sarı yap demektir*/
+
+    background-color: yellow;
+}
+
+div h3:first-child { /*div etiketinin ilk h3 çocuğunu seçerek arka plan rengini mavi yapar*/
+
+    background-color: blue;
+}
+
+.divo ul:first-child {  /*class ı divo olan divin ilk ul sini al ve arka plan rengini kırmızı yap demektir*/
+
+    background-color: red;
+}
+
+div:first-child {  /*Body içerisindeki div leriminden ilkinin arka plan rengini yeşil yap*/
+/*body div:first-child demektir aslında*/
+
+    background-color: green;
+}
+
+
+span div:first-child {   /*span etiketinin altındaki ilk div seç ve arka plan rengini indigo yap demektir*/
+    
+    background-color: indigo;
+}
+
+div ul:first-child {    /*div altındaki ilk ul yi seç ve arka plan rengini magenta yap demektir.*/
+
+    background-color: magenta;
+}
+
+
+ul.ul1 li:first-child {   /*classı ul1 olan ul altındaki ilk li yi seç ve arka plan rengini turuncu yap demektir.*/ 
+
+    background-color: orangered;
+}

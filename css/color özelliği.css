@@ -1,0 +1,21 @@
+body {
+    color: red;  /*Renklerin ingilizce isimleriyle ilgili kullanım*/
+}
+
+.p {
+    color: rgb(43, 11, 65); /*Renklerin rgb değerleriyle ilgili kullanım*/ 
+}
+
+.p2 {
+    color: rgba(43, 11, 65, .5);  /*Renklere opaklık transparanlık vermek için kullanılır. Sondaki kısma 0-1 arası bir değer girilir(.5,.3,.8 gibi)*/
+}
+
+.p3 {
+
+    color: hsla(0, 72%, 33%, .32); /*Bu değerleri incele bölümünden bulabiliyoruz*/
+}
+
+.p4 {
+
+    color: #187a91; /*HEX kodlarını da ilgili incele bölümünden bulabiliyoruz*/
+}

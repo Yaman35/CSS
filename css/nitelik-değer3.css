@@ -1,0 +1,4 @@
+div[class^="bo"] {   /*nitelik değeri "bo" ile başlayanları seç ve arka plan rengini kırmızı yap demek*/
+  
+    background-color: red;
+}

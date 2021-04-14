@@ -1,0 +1,24 @@
+.div1 {
+
+    width: 300px;  /*Genişlik ve yükseklik değerlerinin pixel cinsinden belirlenmesidir*/
+    height: 300px;
+    background-color: lime;
+}
+
+html {
+
+    height: 100%;
+}
+
+body {
+
+    height: 400px;
+}
+
+.div2 {
+
+    width: 50%;    /*Sayfamın yarısı kadar genişlik ver demektir*/
+    height: 50%;   /*Fakat yüksekliğe de böyle yapsaydık kaybolurdu, çünkü div ebeveyni body ve onun yüksekliği 0, dolaysıyla 0/2 den 0 olur ve kaybolur*/
+                   /*Bu sorunu html ve body etiketlerine baştan yükseklik değeri (100%) vererek çözebiliriz*/
+    background-color: yellow;
+} 

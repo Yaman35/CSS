@@ -1,0 +1,19 @@
+.p1 {
+    color: red;
+    text-transform: lowercase; /*Tüm harfleri küçük yazar*/
+}
+
+.p1::selection {   /*p1 classına sahip p etiketimi Seçtikten sonra yapılacak olan işlemler*/
+    color: green;
+    background-color: yellow;
+}
+
+.p2 {
+    color: blue;
+    text-transform: uppercase; /*Tüm harfleri büyük yazar*/
+}
+
+.p3 {
+    color: green;
+    text-transform: capitalize; /*Tüm kelimelerin ilk harfini büyük yazar*/
+}

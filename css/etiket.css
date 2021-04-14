@@ -1,0 +1,9 @@
+h3 {color: cyan;} /*Tüm h3 ler için geçerli*/
+
+p {color: darkblue;} /*Tüm paragraflar için geçerli mesela*/
+
+ul {color: yellow;} /*veya li{} şeklinde de seçilebilirdi*/
+
+span {color: darkgreen;}
+
+div{color: rgb(255, 0, 76);}

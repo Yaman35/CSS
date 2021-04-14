@@ -1,0 +1,14 @@
+p {
+    width: 40px;
+    border: lime 3px dotted; 
+}
+
+p:first-child {  /*Normalde tr ye uygun olarak kelimeleri kesip bordera sığdırmaya yarar, lakin burada olmadı*/
+    hyphens: auto;
+}
+
+p:last-child {
+
+    word-break: break-all; /*İkisi de border dışına taşacak bir kelimeyi ordan böler ve border içine sığdırmaya yarar
+    /*overflow-wrap: break-word;*/
+}

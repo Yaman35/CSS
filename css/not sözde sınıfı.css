@@ -1,0 +1,17 @@
+abbr[title] {  /*abbr etiketilerinden niteliğinde title olanları seç ve arka plan renklerini sarı yap demektir*/
+
+    background-color: yellow;
+}
+
+
+abbr:not([title]) {
+
+    background-color: green; /*abbr etiketlerimden nitelilkleri arasında title olmayan abbr etiketlerimi seç ve arka plan rengini yeşil yap demektir*/
+}
+
+
+
+abbr:not([title]):not(.test):not(#test) {  /*abbr etiketlerimden title niteliği olmayan,class ı test olmayan ve id si test olmayan abbr etiketlerini seç ve arka planı pembe yap demektri*/
+
+    background-color: pink;
+}

@@ -1,0 +1,19 @@
+div b {        /*div etiketi içerisindeki b etiketimin içindeki text rengini mavi yap demektir.*/
+    
+    color: blue;
+}
+
+div em {       /*div etiketi içerisindeki em etiketimin içindeki text rengini kırmızı yap demektir.*/
+
+    color: red;
+}
+
+.box u {       /*div etiketim box class ına sahip olduğu için bu şekilde de bir tanımlama yapabilirdim*/
+
+    color: aqua; 
+}
+
+.box .bold {   /*Arada bir BOŞLUK var dikkat! Burada da classı box olan etiketimin içindeki classı bold olan etiketimin içindeki textin rengini pembe yap demektir*/
+
+    color: pink;
+}

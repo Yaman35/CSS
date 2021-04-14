@@ -1,0 +1,36 @@
+div {
+
+    background-color: lime;
+
+    margin-top: 50px;
+    padding-top: 50px;
+
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+    margin-left: 15px;
+    padding-left: 30px;
+
+
+
+}
+
+.test {
+
+    background-color: blue;
+    margin-left: -50px;   /*Bu şeklide negatif değerler verilerek sağa sola aşağı yukarı kaydırma yapılabiliyor padding özelliğinin aksine*/
+   
+}
+
+.test1 {
+
+    width: 200px;
+    height: 200px;
+    
+    margin-bottom: 15px;
+    margin-left: auto; /*Bu iki auto birlikte kullanıldığında width ve height değerleri olan div sayfanın tam ortasına ortalanır*/
+    margin-right: auto;
+
+    /*Şu şekilde bir kullanım da hoş olurdu*/
+    /* margin: 0 auto 15px; */
+}

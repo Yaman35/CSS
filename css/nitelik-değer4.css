@@ -1,0 +1,4 @@
+div[class$="box"] {   /*Class Niteliğindeki değer box ile bitenleri seç ve arka planını sarı yap demektir*/
+     
+    background-color: yellow;
+}

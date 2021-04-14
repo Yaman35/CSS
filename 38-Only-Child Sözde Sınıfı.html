@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial">
+
+<title> CSS Başlangıç </title> 
+
+<link rel="stylesheet" href="css/only-child.css">
+
+</head>
+
+<body>
+
+    <ul>
+        <li>Liste 1</li> (İlk ul nin tek çocuğu olduğu için)
+    </ul>
+
+    <ul>
+        <li>Liste 2</li>
+        <li>Liste 3</li>
+          <ul>
+              <li>Liste 3.1</li> (2.li altındaki ul nin tek çocuğu olduğu için)
+          </ul>
+    </ul>
+
+    <ul>
+        <li>Liste 4</li>
+    </ul>
+   
+    <div>
+    <div>DIV 1</div> (div tek çocuğu olduğu için)
+    </div> 
+
+    <div> (Görüleceği üzere bunlar seçilmedi çünkü 3 kardeşler)
+        <div>DIV 2</div>
+        <div>DIV 3</div>
+        <div>
+            
+            DIV 4 <div>div içinde div etiketi</div> (Bu seçildi çünkü div içindeki tek div çocuk olduğu için)
+
+        </div> 
+    </div>
+
+</body>
+
+
+</html>

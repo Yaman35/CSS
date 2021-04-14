@@ -1,0 +1,13 @@
+a[target] {        /*Linklerin target özelliğine sahip olanların text rengini yeşile çevir demek*/
+    color: green;
+}
+
+
+a[target="_blank"] {  /*Linklerin target özelliği blank olanların rengini kırmızıya çevir demek*/
+
+    color: red;
+}
+
+img[height="100"] {   /*img lerden height özelliği 100 olanların arka plan rengini sarı yap demek*/
+    background-color: yellow;
+}

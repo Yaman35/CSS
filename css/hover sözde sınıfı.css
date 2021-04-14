@@ -1,0 +1,57 @@
+a:hover {    /*a etikketimin üzerine geldiğimde bütün text i büyük harf yap demektir*/
+    
+    text-transform: uppercase;
+}
+
+
+ul li:hover {    /*ul listinin li leri üzerine fare ile gelindiğinde arka plan renkleri yeşile döner demektir*/
+
+    background-color: green;
+}
+
+.div1:hover {    /*div etiketi üzerine fare ile gelindiğinde arka plan rengi kırmızıya döner demektir.*/
+
+    background-color: red;
+}
+
+div span:hover {   /*div etiketi içerisindeki span etiketi üzerine fare ile gelindiğinde arka plan rengi sarı olur demektir.*/
+
+    background-color: yellow;
+}
+
+
+button:hover + ul {  /*button etiketinden hemen sonra gelen ul listini fare ile button üzerine geldiğinde gizle/gösterme demektir*/
+
+    display: none;
+}
+
+p:hover {   /*p etiketinin üzerine geldiğinde arka plan rengi değişir*/
+
+    background-color: yellowgreen;
+}
+
+p::selection {  /*p etiketinde seçim işlemi yapınca arka plan rengi mavi olur*/
+
+    background-color:blue;
+}
+
+p:hover::selection {  /*p etiketinin selection ı üzerinde gellindiğinde arka plan rengi sarı-yeşil olur*/
+
+    background-color: lightblue;
+}
+
+
+.url::after {         /* classında url olanların (linklerde) after ına href değerini ekle demektir*/ 
+    content: '(' attr(href) ')';
+}
+
+.url:hover::after {  /*class ı url olan linkimin üzerine geldiğimde after ını kaldır/görünmez yap demektir*/
+  
+    display: none;
+}
+
+a.url:hover {   /*class ı url olan etiketimin üzerine geldiğimde text in bütün harfleri küçük olsun demektir*/
+
+    text-transform:lowercase;
+    
+}

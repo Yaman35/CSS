@@ -1,0 +1,33 @@
+div {          /*Normal div lerin arka plan renklerini sarı yapar */
+    background-color: yellow;
+}
+
+
+ /* Bu şekilde kullanırsak hepsini etkiler
+ 
+ div::after {
+
+    content: 'Sonraki Yazı';
+    color: blue;
+    background-color: green;
+}
+
+*/
+
+.divvy::after {    /*Class ı divvy olanların sonrasına ekler,görüleceği üzere sadece sözde öğe etkilenir*/
+
+    content: 'SONRA';
+    color: green;
+    background-color:red;
+    font-weight: bold;
+}
+
+
+
+.divvy2::before {  /*Class ı divvy2 olanların öncesine ekler,görüleceği üzere sadece sözde öğe etkilenir*/
+
+    content: 'ÖNCE';
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+}

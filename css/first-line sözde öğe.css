@@ -1,0 +1,12 @@
+.paragraf1::first-line {   /*class ı paragraf1 olan paragrafın ilk satırını seç ve arka plan rengini sarı yap*/
+
+    background-color: yellow;
+
+}
+
+
+#p2::first-line {    /*id si p2 olan paragrafın ilk satırının boyutunu ve kalınlığını değiştirebilmeye yarar*/
+
+    font-size: 20px;
+    font-weight: bold;
+}

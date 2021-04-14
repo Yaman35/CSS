@@ -1,0 +1,9 @@
+li:only-child { /*Sadece tek çocuk olan li lerin arka plan rengini sarı yap anlamına gelir*/
+
+    background-color: yellow;
+}
+
+div:only-child {  /*Sadece bir çocuğu olan ebeveyni seçer ve arka plan renigini mavi yapar*/
+
+    background-color: blue;
+}

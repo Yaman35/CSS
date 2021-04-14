@@ -1,0 +1,15 @@
+
+* {
+    color: green; /*Tüm etiketlerimi seç ve rengini yeşil yap demektir*/
+}
+
+
+/*Veya şu şekilde bir kullanım da mevcuttur. Bu da div içerisindeki tüm etiketlerimi seç ve renklerini mavi yap demektir*/
+
+/*
+
+div * {
+    color:blue;
+} 
+
+*/

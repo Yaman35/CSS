@@ -1,0 +1,57 @@
+div {          /*Normal div lerin arka plan renklerini sarı yapar */
+    background-color: yellow;
+}
+
+.divdiv {      /*3.div arka plan mavi olsun*/
+
+    background-color: blue; 
+}
+
+.divvy::after {     /*classı divvy olan ile ilgili işlemler*/
+
+    content: attr(title) ; /*Böylelikle 1.div sonrasına title niteliğinin değeri olan 'attrli title' yazılır*/
+    color: green;
+    background-color:red;
+    font-weight: bold;
+}
+
+
+
+div.divvy2::before {  /*Class ı divvy2 olanları bu şekilde de belirtebililyoruz*/
+
+    content: attr(class); /*Böylelikle 2.div öncesine class nitelinin değeri olan 'divvy' yazılır*/
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+}
+
+
+.divdiv::after { /*class ı divdiv olanın işlemlerini yapar*/
+
+    content: attr(data-sonrasi);
+}
+
+/* 
+
+.divdiv::before {
+
+    content: attr(data-id);    Alttaki bunu override eder bu durumda
+}
+
+*/
+
+.divdiv::before {
+
+    content: attr(data-oncesi);
+}
+
+a[target='_blank']::after {   /*Targetı _blank olan linkimin after ına href niteliği içindekini değeri ekle demektir*/
+
+    content:  ' (' attr(href) ') '; /*Bu şekilde başına ve sonuna parantez ve boşluk eklenebilir*/
+
+}
+
+a[target='_self']::before {   /*Targetı _self olan linkimin öncesine href niteliği içindeki değeri ekle demektir*/
+
+    content: '(' attr(href) ')';
+}

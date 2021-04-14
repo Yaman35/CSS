@@ -1,0 +1,47 @@
+input[type="radio"]:checked + span {   /*input lardan type ı radio olan ve checked yapılanın bitişiğindeki span etiketini kırmızı yap demektir*/
+    color: red;  
+}
+
+
+input.radio[type="radio"]:checked + span { /*input lardan classı radio olan ve type ı radio olanlardan checked yapılanın bitişiğindeki span etiketinin arka plan rengini sarı yap demektir*/
+
+    background-color: yellow;
+}
+
+
+
+input#cb:checked + div.box { /*id si cb olan input checked olduğunda bitişiğindeki classı box olan div etiketi kaybolsun/gösterilmesin demektir*/
+
+    display: none;
+}
+
+
+.label::before {   /*Class ı button olan labelin before kısmına data-hide değerini (GİZLE) ata demek*/
+    content: attr(data-hide);
+}
+
+
+.cbox:checked + .label::before { /*class ı cbox olan input checked edildiğinde bitişiğindeki labelin before kısmı data-show değeri (GÖSTER) demek*/
+    content: attr(data-show);
+}
+
+
+.button2::before {   /*class ı button2 olan butonun before kısmına data-hide değerini (HIDE) ata demek */
+
+    content: attr(data-hide);
+}
+
+
+.cbox2:checked + .button2::before {  /*class ı cbox2 olan inputum checked edildiğinde bitişiğindeki class ı button2 olan button before kısmı data-show değeri (gizlendi) olsun demek*/
+
+    content: attr(data-show);
+    background-color: red;        /*Aynı şekilde checked olduğunda arka plan kırmızı olsun demek*/
+    text-transform:lowercase ;      /*Aynı şekilde checked olduğunda bütün harfler küçük olsun demek*/
+}
+
+
+input.cbox2:checked + button.button2 + div.gizle {   /*class ı cbox2 olan inputum (checkbox) checked edildiğinde,bitişiğindeki butonun bitişiğindeki class ı gizle olan div kaybolsun/görülmesin demek*/
+/*.cbox2:checked + .button2 +.gizle   şeklinde de yazılabilrdi*/
+
+    display: none;
+}

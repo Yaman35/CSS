@@ -1,0 +1,10 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif; /*Bu şekilde bütün nody altındaki etiketlere font belirlenebilir.*/
+
+} 
+
+h3 {
+
+    font-family: fantasy; /*Bu şekilde ayrı ayrı da yazı tipi verilebilir*/
+}

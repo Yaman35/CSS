@@ -1,0 +1,220 @@
+.box1 {
+
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+}
+
+.box2 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(orange,red); /*Renk geçişleri yapabilmek için kullanılır.*/
+                                                       /*Görüleceği üzere background-color ile değil background-image ile birlikte kullanılmaktadır*/
+}
+
+.box3 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to left, orange,red); /*Bu şekilde bir kullanım ile renk geçişinin yönünü belirleyebiliyoruz*/
+                                                                /*to left,to right,to bottom,to top*/
+}
+
+.box4 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top right, yellow,blue); /*to top left,to top right,to bottom left,to bottom right*/
+                                                                
+}
+
+.box5 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(45deg, yellow,red); /*Bu şekilde derece verilerek de kullanılabilir. - dereceler vermek de mümkündür*/
+                                                                
+}
+
+.box6 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(yellow,red,blue,green,purple); /*Birden fazla renk kullanılabilir*/
+                                                                
+}
+
+.box7 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(yellow 0 20%,red 20% 40%,blue 40% 60%,green 60% 80%,purple 80% 100%); /*Renk geçişleri keskin şekilde ayarlanabilir*/
+                                                                
+}
+
+.box8 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(yellow 0 18%,red 20% 38%,blue 40% 58%,green 60% 78%,purple 80% 100%); /*Renk geçişleri bulanık şekilde ayarlanabilir*/
+                                                                
+}
+
+.box9 {
+
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(yellow, 20% ,red); /*Sarının ağırlığı %20 lerde sonlansın ve kırmızının ağırlığı başlasın demektir*/
+                                                                
+}
+
+
+.box10 {
+
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right, #001E96 0 33%, #FFFFFF 33% 66% ,#EE2436 66%); /*Sarının ağırlığı %20 lerde sonlansın ve kırmızının ağırlığı başlasın demektir*/
+    border: 2px solid black;                                                            
+}
+
+.box11 {
+
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right,transparent,rgba(0,255,0,.5)), /*Bu şekilde bir görsel ile kullanmak da mümkündür*/
+                        linear-gradient(to left,transparent,rgba(255,0,0,.5)),
+                          url(f16.jpg);
+    background-size: cover;
+    background-position: center;                                     
+}
+
+.box12 {
+
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(lime,blue) ; /*Dairsel bir yayılım şeklinde renk geçişi olur*/                                  
+}
+
+.box13 {
+
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(at left,lime,blue) ; /*at right,at top veya at bottom yazarak dairesel yayılımın başlangıç noktasını seçebiliriz*/                                    
+}
+
+.box14 {
+
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(yellow,red) ; /*Saat yönünde bir yayılım olur*/                                    
+}
+
+.box15 {
+
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(at 25% 50%,yellow,red) ; /*Bu şekilde yatay ve dikeydeki yerlerini belirterek istediğimiz noktadan da başlatabiliriz*/                                    
+}
+
+.box16 {
+
+    width: 300px;
+    height: 200px;
+    background-image: repeating-linear-gradient(yellow 0px 5px,red 5px 10px) ; 
+}
+
+.box17 {
+
+    width: 300px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg,yellow 0px 5px,red 5px 10px) ; 
+}
+
+.box18 {
+
+    width: 300px;
+    height: 200px;
+    background-image: repeating-linear-gradient(90deg,yellow 0px 5px,red 5px 10px) ; 
+    border-radius: 50%;
+}
+
+.box19 {
+
+    width: 95%;
+    height: 50px;
+    background-color: #f8f8f8;
+    line-height: 50px;
+    padding: 0px 25px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-image: repeating-linear-gradient(45deg,transparent 0px 10px,#ddd 10px 20px) ; 
+}
+
+.box20 {
+
+    width: 200px;
+    height: 200px;
+    background-image: repeating-radial-gradient(yellow 0px 5px,red 5px 10px); 
+    border-radius: 50%; /*Bu şekilde de tam yuvarlak yapabliriz*/
+}
+
+.box21 {
+
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(yellow 0px 50px,red 50px); 
+    
+}
+
+
+.box22 {
+
+    width: 200px;
+    height: 200px;
+    background-image: repeating-conic-gradient(lime 0deg 30deg,blue 30deg 60deg,yellow 60deg 90deg); 
+    
+}
+
+.box23 {
+
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(30,87,153,0.59) 11%,rgba(32,98,167,0.8) 15%,rgba(35,109,181,1) 19%,rgba(41,137,216,1) 29%,rgba(39,196,49,1) 69%,rgba(39,196,49,1) 81%,rgba(39,196,49,0.8) 85%,rgba(39,196,49,0) 100%);
+    border: 1px dashed red;
+}
+
+.box24 {            /*Bu kısım hazır gradient sitelerinden kopylanmıştır*/
+    width: 300px;
+    height: 300px;
+    background: #36c;
+background:
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+#36c;
+background-size: 15px 30px;
+}
+
+.box25 {            /*Bu kısım hazır gradient sitelerinden kopylanmıştır*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+
+
+
+

@@ -1,0 +1,20 @@
+input {    /*input etiketine yazmaya başladığım vakit kırmızı olacak*/
+
+    color: red;
+}
+
+input::placeholder {   /*input etiketine yazmadan önce içindeki placeholder text sarı gözükecek*/
+
+    color:yellow
+}
+
+textarea {      /*textarea kısmına yazmaya başladığımda mavi yazacak*/
+
+    color: blue;
+}
+
+textarea::placeholder {  /*textarea kısmına yazmadan önce içindeki placeholder text yeşil gözükecek*/
+
+    color: green;
+    font-size: 15px;   /*Ayrıca yazı büyüklüğü de default değerden biraz daha büyük olacaktır*/
+}

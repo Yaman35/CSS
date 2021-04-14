@@ -1,0 +1,14 @@
+h1 {
+    color: red; /*h1 etiketlerinin hepsinin rengini kırmızı yap demektir*/
+}
+
+#title {
+
+    color: blue; /*id si title olan tüm etiketleri mavi renk yap demektir, dolayısıyla üstteki tüm h1 leri red yap olayını override eder*/
+}                  /* Bu kodun üstteki  koddan önce veya sonra yazılmaıs birşey değiştirmez*/ 
+
+
+h3#title {
+
+    color:yellow; /*h3 etiketleri içerisinde id si title olanların rengini sarı yap demektir*/
+}
