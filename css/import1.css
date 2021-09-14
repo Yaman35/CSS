@@ -1,9 +1,0 @@
-@import "import2.css"; /*sayfafaki h3 text lerinin rengini değiştimek için buraya çağırılan css*/
-
-/*Aşağıdaki şekilde de bir kullanımı mevuttur @import özelliğinin*/
-@import url("import3.css"); /*Sayfadaki h4 text lerinin rengini değiiştirmek için çağırılan css*/
-
-body {
-    background-color: blue; /*Sayfanın arka plan rengini değiştirmeye yarar*/
-}
-
