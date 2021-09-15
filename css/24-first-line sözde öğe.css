@@ -5,7 +5,7 @@
 }
 
 
-#p2::first-line {    /*id si p2 olan paragrafın ilk satırının boyutunu ve kalınlığını değiştirebilmeye yarar*/
+#p2::first-line {    /*id si p2 olan paragrafın ilk satırının boyutunu ve kalınlığını değiştir*/
 
     font-size: 20px;
     font-weight: bold;

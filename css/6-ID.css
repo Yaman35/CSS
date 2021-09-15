@@ -5,7 +5,7 @@ h1 {
 #title {
 
     color: blue; /*id si title olan tüm etiketleri mavi renk yap demektir, dolayısıyla üstteki tüm h1 leri red yap olayını override eder*/
-}                  /* Bu kodun üstteki  koddan önce veya sonra yazılmaıs birşey değiştirmez*/ 
+}                  /* Bu kodun üstteki  koddan önce veya sonra yazılmasi birşey değiştirmez*/ 
 
 
 h3#title {

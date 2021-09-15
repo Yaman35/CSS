@@ -10,5 +10,5 @@ div + p {
 
 div + p span {
 
-    color: blue;  /*Görüleceği üzere div etiketinden hemen sonra gelen p etiketinin span etiketi içindekini rengini değiştiri*/
+    color: blue;  /*Görüleceği üzere div etiketinden hemen sonra gelen p etiketinin span etiketi içindekini rengini değiştirir*/
 }

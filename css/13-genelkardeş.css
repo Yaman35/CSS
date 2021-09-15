@@ -1,0 +1,39 @@
+/*
+
+h3 + p {     h3 etiketinden hemen sonra gelen p etiketini seç ve kırmızı yap demek
+    color: red;
+}
+
+*/
+
+
+h3 ~ p {     /*h3 etiketinden sonra gelen tum p etiketlerini seç ve kırmızı yap demektir*/
+    color: red;
+}
+
+/* .test {
+
+    color: rgb(255, 94, 0);
+} */
+
+ol li.list2 + li {  /*ol listinin list 2 class ına sahip olan li sinden "HEMEN SONRA" gelen li etiketini seç ve rengini turuncu textini kalın yap demek*/
+
+  color: orange;
+  font-weight: bold;
+
+}
+
+ol li.list3 ~ li {   /*ol listinin list 3 class ına sahip olan li sinden sonra gelen "BÜTÜN" li leri seç ve renklerini sarı yap*/
+
+    color: yellow;
+}
+
+div span.bosluk ~ p {  /*div altındaki spanlardan classı bosluk olan spandan sonra gelen tüm p etiketlerini seç ve renklerini mavi yap*/
+ 
+    color: blue;
+}
+
+/* ol li.list2 ~ p Bu şekilde bir kullanım olmaz çünkü p ile li nin ebeynleri farklı, yani kod çalışmaz*/
+
+
+

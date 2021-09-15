@@ -3,7 +3,7 @@
     background-color: yellow;
 }
 
-div h3:first-child { /*div etiketinin ilk h3 çocuğunu seçerek arka plan rengini mavi yapar*/
+div h3:first-child {    /*div etiketinin ilk h3 çocuğunu seçerek arka plan rengini mavi yapar*/
 
     background-color: blue;
 }
@@ -13,7 +13,7 @@ div h3:first-child { /*div etiketinin ilk h3 çocuğunu seçerek arka plan rengi
     background-color: red;
 }
 
-div:first-child {  /*Body içerisindeki div leriminden ilkinin arka plan rengini yeşil yap*/
+div:first-child {       /*Body içerisindeki div leriminden ilkinin arka plan rengini yeşil yap*/
 /*body div:first-child demektir aslında*/
 
     background-color: green;

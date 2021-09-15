@@ -1,0 +1,5 @@
+div[class*="box"] {    /*Class niteliğinin değerinin içerisinde herhangi bir yerde belirlenen kelime geçiyorsa o elemani seçer ve arka planı mavi yapar*/
+
+    background-color: blue;
+}
+

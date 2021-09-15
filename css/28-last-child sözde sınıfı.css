@@ -1,0 +1,11 @@
+ul li:last-child {  /*ul içerisindeki son li yi seç ve arka plan rengini sarı yap demektir.*/
+/* li:last-child şeklinde de yazılabilirdi*/
+
+    background-color: yellow;
+}
+
+body ul:last-child {  /*Body içerisindeki son ul yi seç ve arka plan rengini kırmızı yap demektir*/
+/* body ul:last-child şeklinde de yazılabilirdi*/
+
+    background-color: blue;
+}

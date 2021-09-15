@@ -2,7 +2,7 @@ div {          /*Normal div lerin arka plan renklerini sarı yapar */
     background-color: yellow;
 }
 
-.divdiv {      /*3.div arka plan mavi olsun*/
+.divdiv {      /*Classi divdiv olan divin arka plan rengi mavi olsun*/
 
     background-color: blue; 
 }
@@ -17,9 +17,9 @@ div {          /*Normal div lerin arka plan renklerini sarı yapar */
 
 
 
-div.divvy2::before {  /*Class ı divvy2 olanları bu şekilde de belirtebililyoruz*/
+div.divvy2::before {  /*Class ı divvy2 olanları bu şekilde de belirtebiliyoruz*/
 
-    content: attr(class); /*Böylelikle 2.div öncesine class nitelinin değeri olan 'divvy' yazılır*/
+    content: attr(class); /*Böylelikle 2.div öncesine class nitelinin değeri olan 'divvy2' yazılır*/
     color: white;
     background-color: blue;
     font-weight: bold;
@@ -45,7 +45,7 @@ div.divvy2::before {  /*Class ı divvy2 olanları bu şekilde de belirtebililyor
     content: attr(data-oncesi);
 }
 
-a[target='_blank']::after {   /*Targetı _blank olan linkimin after ına href niteliği içindekini değeri ekle demektir*/
+a[target='_blank']::after {   /*Targetı _blank olan link in after ına href niteliği içindeki değeri ekle demektir*/
 
     content:  ' (' attr(href) ') '; /*Bu şekilde başına ve sonuna parantez ve boşluk eklenebilir*/
 

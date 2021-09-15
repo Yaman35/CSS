@@ -9,7 +9,7 @@ p em {
 
 /*Yukarıdaki şekilde kullanılırsa bütün p etiketleri içindeki b ve em etiketleri etkilenir*/
 
-h3 > b {  /*Çocuk seçimi > işareti ile gerçekleştirilir.*/
+h3 > b {  /*Çocuk seçimi " > " işareti ile gerçekleştirilir.*/
 
     color: red;
 }
@@ -20,4 +20,4 @@ h3 > em {
 }
 
 /*Görüleceği üzere eğer bu şekilde kullanılırsa yalnızca ebeveyni h3 olan b ve em etiketi etkilenir*/
-/*Yani bu örneğimizde birinci h3 oluyor. İkinci h3 de b ve em etiketlerinin ebeveynleri span etiketi olduğu için onlar etkilenmedi*/
+/*Yani bu örneğimizde birinci "h3" de oluyor. Fakat ikinci "h3" de "b" ve "em" etiketlerinin ebeveynleri "span" etiketi olduğu için onlar etkilenmedi*/
