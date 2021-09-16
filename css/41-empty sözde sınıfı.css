@@ -1,4 +1,4 @@
-li:empty {   /*li lerimden içi boş olanları seç ve görünmez kıl demektir*/
+li:empty {   /*li lerimden içi boş olanları seç ve arka plan rengini sari yap demektir*/
 
     background: yellow;
 }

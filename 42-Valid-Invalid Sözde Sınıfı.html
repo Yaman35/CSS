@@ -6,20 +6,21 @@
 
 <title> CSS Başlangıç </title> 
 
-<link rel="stylesheet" href="css/valid-invalid sözde sınıfı.css"> 
+<link rel="stylesheet" href="css/42-valid-invalid sözde sınıfı.css"> 
 
 </head>
 
 <body>
      
-<input type="text" minlength="3" maxlength="10" pattern="[0-9]+">
+<input type="text" minlength="3" maxlength="10" pattern="[0-9]+"> <!--Mesela burada da kullanicinin yalnizca rakam girebilmesi saglanir-->
 
 <hr>
 
 <ul>
     <li>
         <label for="ad">Adınız</label>
-        <input type="text" id="ad" pattern="[A-Za-z].{3,10}"  required autofocus> <!--pattern etiketi ile girilmesi istenen karakterleri belirleyebiliyorsun, min 3 harf olsun demek-->
+        <input type="text" id="ad" pattern="[A-Za-z].{2,10}"  required autofocus> <!--pattern etiketi ile girilmesi istenen karakterleri belirleyebiliyorsun, min 3 harf olsun demek-->
+                                        <!--Mesela burada kullanicinin sadece harf girmesi saglanir-->
         <span></span>
     </li>
      <br>

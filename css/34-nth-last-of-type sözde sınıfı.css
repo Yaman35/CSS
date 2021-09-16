@@ -1,0 +1,4 @@
+div:nth-last-of-type(3) {  /* :nth-of-type sözde sınıfının baştan sayarak yaptığı işi sondan yapar yani sondan sayarak 3.div etiketini işaretler oda burda ilki oluyor*/
+                           /* Sondan basladigi icin buna gore son eleman, listenin ilk elemani olur */ 
+    background-color: green;
+}

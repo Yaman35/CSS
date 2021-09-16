@@ -1,5 +1,0 @@
-div:nth-of-type(3) {    /*Bu şekilde yazarak arada p etiketi olsa dahi 3.div etiketini seçebildim*/
-                        /*Parantez içine odd yazsaydım eğer 1. ve 3. div etiketleri seçilecekti*/
-   
-   background-color: green;
-}

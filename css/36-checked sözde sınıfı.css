@@ -16,7 +16,7 @@ input#cb:checked + div.box { /*id si cb olan input checked olduğunda bitişiği
 }
 
 
-.label::before {   /*Class ı button olan labelin before kısmına data-hide değerini (GİZLE) ata demek*/
+.label::before {   /*Classı label olan labelin before kısmına data-hide değerini (GİZLE) ata demek*/
     content: attr(data-hide);
 }
 

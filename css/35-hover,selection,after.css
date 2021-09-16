@@ -20,7 +20,7 @@ div span:hover {   /*div etiketi içerisindeki span etiketi üzerine fare ile ge
 }
 
 
-button:hover + ul {  /*button etiketinden hemen sonra gelen ul listini fare ile button üzerine geldiğinde gizle/gösterme demektir*/
+button:hover + ul {  /*button etiketinden hemen sonra gelen ul listini, fare ile button üzerine geldiğinde gizle/gösterme demektir*/
 
     display: none;
 }
@@ -41,7 +41,7 @@ p:hover::selection {  /*p etiketinin selection ı üzerinde gellindiğinde arka 
 }
 
 
-.url::after {         /* classında url olanların (linklerde) after ına href değerini ekle demektir*/ 
+.url::after {         /* classında url olanların (linklerde) after ına attr href değerini ekle demektir*/ 
     content: '(' attr(href) ')';
 }
 
@@ -50,7 +50,8 @@ p:hover::selection {  /*p etiketinin selection ı üzerinde gellindiğinde arka 
     display: none;
 }
 
-a.url:hover {   /*class ı url olan etiketimin üzerine geldiğimde text in bütün harfleri küçük olsun demektir*/
+a.url:hover {   /* class ı url olan etiketimin üzerine geldiğimde text in bütün harfleri küçük olsun demektir*/
+                /* Burada a yazmasaydik da olurdu */
 
     text-transform:lowercase;
     

@@ -3,7 +3,7 @@ div:only-child {  /*Bu şekildeki kod ile iki çocuğu olan ebeveynin div etiket
     background-color: yellow;
 }
 
-div:only-of-type {  /*Ama bu kod ile ebeveynlerin sadece div çcouklarını seçtirebiliyorum*/
+div:only-of-type {  /*Ama bu kod ile ebeveynlerin sadece div çocuklarını seçtirebiliyorum*/
                     /*Fakat aynı tipten iki tane varsa onları seçemem mesela iki div etiketi varsa*/
     
     background-color: teal;

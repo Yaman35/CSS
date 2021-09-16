@@ -1,0 +1,28 @@
+
+
+input:valid {                 /*input değeri valid ise çerçeve rengi yeşil olsun demektir*/
+    
+    border-color:green;
+}
+
+input#ad:valid + span::before {  /*inputlardan id si "ad" olanin değeri valid ise hemen sonra gelen span contentine '✓' ekle ve rengi yeşil olsun demektir*/
+              /* span::after seklinde de yailabilirdi cunku zaten span ici bos o yuzden farketmezdi */
+    content:'✓' ;
+    color: green;
+}
+
+input:invalid {               /*input değeri invalid ise çerçeve rengi kırmızı olsun demektir*/
+
+    border-color: red;
+}
+
+input:invalid + span::before { /*input değeri invalid ise hemen sonra gelen span content ine '✘' ekle ve rengi de kırmızı olsun demektir*/
+
+    content:'✘' ;
+    color: red ;
+}
+
+input {  
+
+    outline: 0;                 /*Çerçeveleri kaldırmaya yarar*/
+}
