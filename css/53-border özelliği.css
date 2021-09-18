@@ -1,0 +1,39 @@
+.box1 {
+
+    width: 250px;
+    height: 250px;
+    background-color: lime;
+
+    border-style: groove;  /*Herbirini farklı farklı şekillendirebilirdik, tıpkı margin ve padding özelliklerinde olduğu gibi*/
+    border-width: 10px;  /*Çerçeve kalınlıklarını ayarlamaya yarar.*/
+    border-color: blue; /*#333 Bu şekilde hex kodu ile de yazılabilirdi*/
+                          /*transparent seçeneği ise border var lakin kullanıcıya göstermez*/
+  
+}
+
+.box2 {
+    
+    margin-top: 20px;
+    width: 200px;
+    height:200px;
+    background-color:yellow;
+
+    border: 10px solid red;  /*Yukarıda öğrenidiğimiz özelliklerin kısa kullanım şeklidir*/
+    border-top: 5px dotted green; /* Her ne kadar bir ustteki kod ile herbirini tanimlamis olsak da bu sekilde override da edebiliriz */
+    border-left: 15px dashed lightblue;
+    border-bottom: 3px inset blue;
+    /*Mesela burada border-right ifadesi kullanmadigimiz icin o en basta yazdigimiz koda gore calisti*/
+}
+
+input {
+
+     outline: none;
+     border: 3px solid gray;
+
+}
+
+input:focus{  /*input a focuslanıldığında çerçeve rengi yeşil olsun demektir.*/
+
+    border-color: green;
+    border-top: none;  /*Bu şekildeki bir kod ile kenarlardan bir tanesini silebiliriz*/
+}

@@ -1,0 +1,12 @@
+p {
+    text-align: justify;   /*Metinleri left-right-center-justify olarak sayfaya göre ayarlamaya yarar*/
+    text-align-last: left; /*Metinlerin sadece son satırını left-right-center-justify olarak sayfaya göre ayarlamaya yarar*/
+    
+}
+
+/* 
+p::first-line {
+
+    text-align: center;  Bu şekilde bir kullanım ile de metnin sadece ilk satırına işlem yapabiliyorduk
+} 
+*/

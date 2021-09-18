@@ -1,0 +1,33 @@
+body {
+    height: 3000px;
+}
+
+.box1 {
+
+    width: 300px;
+    height: 300px;
+    border: 5px dashed green;
+    padding: 15px;
+    outline: 3px solid red;
+    outline-offset:5px;
+
+    background-image: url(https://img-s2.onedio.com/id-602f732c68f4d4331f20b1d5/rev-0/w-635/f-jpg-webp/s-694a16e6bddcb2502369a4088d7e221a91e1b9c6.webp);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+   /*Yukarıdaki tüm background özelliklerini aşağıdaki şekildeki gibi tek seferde de kullanabiliriz*/
+.box2 {
+
+    width: 300px;
+    border: 5px dashed green;
+    height: 300px;
+    padding: 15px;
+
+    background: padding-box center/cover green url(f16.jpg) no-repeat border-box;
+
+    
+}

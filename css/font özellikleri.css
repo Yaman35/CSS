@@ -1,5 +1,0 @@
-p {
-
-    font: italic bold small-caps 30px/1.5 Arial, sans-serif; /*font özelliğini kullanırken mutlaka font-size ve font-family kullanılmalıdır*/
-}                                     /* Görüleceği üzere line-height belirtmek istersem font-size SONRASI '/' kullanarak değeri yazabilirim*/
-                                       /* Görüleceği üzere style, variant ve weight kullanacaksam da mutlaka font-size ÖNCESİNDE kullanarak değerleri yazabilirim*/

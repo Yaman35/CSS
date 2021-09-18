@@ -1,0 +1,43 @@
+
+
+
+.input1:enabled {   /*classi input1 olan input lardan enabled olanların (not disabled) arka plan rengini sarı yap demektir*/
+
+    background-color: yellow;
+}
+
+.input1:disabled {   /*classi input1 olan input lardan disabled olanların arka plan rengini kırmızı yap demektir*/
+
+    background-color: red;
+}
+
+.input2:optional {   /*classi input2 olan input lardan optional olanların (not required) arka plan rengini yeşil yap demektir*/
+/* .input2:not([required]) (Bu şekilde de yazılabilirdi*/ 
+
+    background-color: green;
+}
+ 
+.input2:required {   /*classi input2 olan input lardan required olanların arka plan rengini mor yap demektir*/
+
+    background-color: purple;
+}
+
+.input3:read-only {   /*classi input3 olan input lardan read-only olanların arka plan rengini mor yap demektir*/
+
+    background-color:gray;   
+}
+
+.input3:read-write {   /*classi input3 olan input lardan read-write (not read-only) olanların arka plan rengini mor yap demektir*/
+
+    background-color: hotpink;
+}
+
+p:read-write {         /* Paragraflardan editlenebilir olanlardan (not read-only) arka plan rengini sari yap demektir*/
+
+    background-color: yellow;
+}
+
+p:read-only {         /* Paragraflardan read-only olanlarin arka plan rengini gri yap demektir*/
+
+    background-color: gray;
+}

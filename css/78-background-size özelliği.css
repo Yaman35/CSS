@@ -1,0 +1,56 @@
+.box1 {
+
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    border: 10px dashed red;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+
+    background-image:url(f16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    background-size: cover; /*Resmi çerçeveye tam sığdırmak için kullanılır*/                   
+}
+
+.box2 {
+
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    border: 10px dashed red;
+    
+    background-image:url(f16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  /*Yükseklik ne olursa olsun resim çerçeveye sığar lakin kenarlardan boşluk kalır*/                  
+}
+
+.box3 {
+
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    border: 10px dashed red;
+    
+    background-image:url(f16.jpg), url(plane.jpg),url(plane.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat; /*Bu şekilde birden farklı resime de işlem yapabiliyoruz*/
+    background-position: center, top left, bottom 20px right 10%;
+    background-size: 100px, 50px, 150px;  
+}
+
+.cover {
+
+     width: 300px;
+     height: 500px;
+     background-position: center;
+     margin-bottom: 15px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border: 5px solid black;
+
+}

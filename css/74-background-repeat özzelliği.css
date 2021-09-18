@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+body {
+
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/23/19/57/yorkshire-terrier-6202621__340.jpg);
+
+    background-repeat: no-repeat ; 
+                     /* no-repeat: Tekrar etme demek*/
+                     /* repeat-x: Görsel sadece yatay eksende tekar eder*/
+                     /* repeat-y: Görsel sadece dikey eksende tekar eder*/
+                     /* repeat: Varsayılan değerdir. Görsel hem yatay hem de dikey eksende hareket eder*/
+                     
+
+}

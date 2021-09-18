@@ -1,0 +1,12 @@
+body {
+
+    background-color: lime;
+    background-image: url(star.png),url(plane.jpg);  /*Sayfaların arka planlarına resim yerleştirmeye yarar*/
+}
+
+div {
+    
+    width: 500px;
+    height: 500px;
+    background-image: url(prototurk.jpg); /*Eğer bir transparan resim kullanılırsa içiçe bindiriebiliriz*/
+}

@@ -6,13 +6,14 @@
 
 <title> CSS Başlangıç </title> 
 
-<link rel="stylesheet" href="css/position özelliği.css"> 
+<link rel="stylesheet" href="css/84-position özelliği.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-    <a href="#div1" class="up"> <u> BAŞA DÖN </u> </a>
+    <a href="#div1" id="up"></a>
 
     <div id="div1">Div Etiketi 1</div>
     <div class="test">Div Etiketi 2</div>
@@ -39,11 +40,15 @@
 
     </div>
 
-    <label >
+    <label >   <!--Bu sekilde label icinde yazmamizin sebebi chekbox sonrasinda gelen div/span kisminin (yani buton),
+                neresine basilirsa basilsin checkbox checked olsun diye-->
+
         <input type="checkbox">
+
         <div class="test1">
-        <span class="check-btn"></span>
+            <span class="check-btn"></span>
        </div>
+
     </label>
 
     

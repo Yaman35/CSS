@@ -1,0 +1,21 @@
+div {
+
+    background-color: yellow;
+    
+    padding-top: 40px;  /*Üstten boşluk bırakır*/
+    padding-left: 10px; /*Soldan boşluk bırakır*/
+    padding-bottom: 50px;  /*Alttan boşluk bırakır*/
+    padding-right: 100px;  /*Sağdan boşluk bırakır*/
+}
+
+.div2 {
+
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+
+  /*padding: 50px ; */ /*Böyle kullanırsak her yer etkilenir*/
+    padding: 50px 100px; /*Fakat böyle kullanırsak ilk değer top-bottom, ikinci değer is left-right olur*/
+  /*padding: 50px 100px 30px şeklinde kullanılırsa ilki top, ikincisi left-right, üçüncüsü ise bottom olarak etkiler*/
+  /*padding: 50px 100px 30px 20px şeklinde kullanılırsa ilki top, ikincisi right, üçüncüsüsü bottom, dördüncüsü left olarak etkiler*/
+}

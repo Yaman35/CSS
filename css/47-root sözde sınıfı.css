@@ -1,0 +1,13 @@
+body {   /*Bunları karisik sirayla yazıp denedim*/
+    background-color: yellow;
+}
+
+
+html {
+    background-color: red;
+}
+
+:root {
+    background-color: blue;
+}
+

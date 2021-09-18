@@ -1,0 +1,52 @@
+.box {
+
+    width: 200px;
+    height:200px;
+    border: 10px double dodgerblue;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 15px;
+}
+
+.box1 {
+
+    width: 200px;
+    height:200px;
+    border: 5px dashed red;
+
+    border-top-left-radius: 10px 20px;
+    border-top-right-radius: 30px 50px;
+    border-bottom-left-radius: 50px 100px;
+    border-bottom-right-radius: 15px 30px;
+}
+
+.box2 {
+
+    width: 200px;
+    height:200px;
+    border: 5px dotted green;
+
+    border-radius: 100px 50px 30px 15px; /*Bu şekilde saat yönünde de değerlerimizi verebiliyoruz*/
+}
+
+.box3 {
+
+    width: 200px;
+    height:200px;
+    border: 5px solid yellow;
+
+    border-radius: 200px; /*Eğer width ve height değerleri aynı ise bu şekilde aynı onların değerini vererek tam bir yuvarlak elde edebiliriz*/
+   /*border-radius: 50% şeklide de yazılabilirdi*/
+}
+
+img {
+
+    border-radius: 50%; /*Veya resim width ve height değerleri olan 300px de yazabilirdim*/
+}
+
+.img1 {
+
+    border-radius:20px 70px 10px;
+}

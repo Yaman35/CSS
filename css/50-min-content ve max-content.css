@@ -1,0 +1,14 @@
+div.class1 {
+
+    background-color: lime;
+    width: max-content;  /*İçerik ne kadardsa genişliğini de o kadar yap demektir dolayısıyla arka plan rengi de o kadar olsun demektir*/
+}   /*width: min-content deseydim cümle içerisindeki en uzun kelime kadar genişliği ayarlayacaktı*/
+
+
+
+div.class2 {
+
+    background-color: tomato;
+    writing-mode: vertical-rl;
+    height: min-content;  /*Yüksekliği içindeki en uzun cümlenin uzunluğu kadar ayarladı*/
+} 

@@ -1,0 +1,143 @@
+body {
+    height: 4000px;
+    margin: 0;
+}
+
+.test {
+    position: absolute; /*Etiket artik sayfada yer kaplamaz, diğer elemanlar üstüne binebilir*/
+                        /*Ayrıca artık bu elemanı sayfa içerisinde istediğimiz yere taşıyabiliriz*/
+                        /*Static Bütün elemanlar varsayılan olarak statiktir*/
+    top: 45px;
+    left: 350px;
+}
+
+.container {
+
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    position: relative; /*Esas div e bunu yazmazsak içindeki div ler dışarı kaçabilir*/
+
+}
+
+.container div {
+    width: 200px;
+    height: 100px;
+}
+
+.container div:nth-child(1) {
+
+    background-color: lime;
+    position: relative; /*Etiketi konumlandırır ve hala yer kaplar,sırasına göre işlem yapar*/
+    z-index: 1; /*İlk önce en önde bunu göster demektir*/
+}
+
+.container div:nth-child(2) {
+
+    background-color: red;
+    position: absolute;     
+    top: 100px;
+    left: 300px;
+}
+
+.container div:nth-child(3) {
+
+    background-color:yellow;
+    position: relative;
+    top: 150px;  
+}
+
+
+
+/* .page {
+    overflow: auto; Bu yazılırsa aşağıdaki sticky kullanımı çalışmaz
+} */
+
+.page h3 {
+  
+    font: bold 40px Arial;
+    background-color: turquoise;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    position: sticky; /*Sayfanın üstünde scroll yaparken yazının daima görünmesini sağlar*/
+    top: 10px;        /*sticky özelliğini kullanırken daima top değeri belirlenmelidir, 0 yazsaydik sayfanin tam tepesinde olurdu*/
+}
+
+.page .text {   /*Başlıklardan sonra 800 px lik boşluklar bıraktık*/
+    height: 800px;
+}
+
+.test1 {        /*Butonun dis cephesi*/
+
+    display: inline-block;
+    width: 100px;       /*Butonun genisligi*/
+    height: 40px;       /*Butonun yuksekligi*/
+    background-color: #ddd; /*Butonun arka plan rengi*/
+    border-radius: 40px;      /*Buton koselerini yuvarladik*/
+    position: relative; /*Eğer bunu kullanmazsak turuncu nokta gri alanın içerisinde kalmaz*/
+}
+
+ .test1 .check-btn {    /*Gri alan içerisindeki turuncu nokta kodu*/
+    width: 30px;        /*Nokta boyutlari*/
+    height: 30px;
+    border-radius: 50%; /*Tam yuvarlak yaptik*/
+    background-color: tomato; /*Rengini ayarladik */
+    position: absolute; /*Bunu kullanmazsak aşağıdaki değerleri kullanıp turuncu noktayı istediğimiz yere getiremeyiz*/
+    top: 5px;
+    left: 5px;
+}
+
+label input:checked + .test1 { /*input checked olduğunda div classına sahip div kısmının arka plan rengi tomato olsun demektir, yani buton cerceve*/
+    background-color: tomato;
+}
+
+label input:checked + .test1 .check-btn { /*input checked olduğunda check-btn classına sahip etiketimin pozisyonu soldan 65px olsun demektir.Ayrıca arka plan rengi de beyaz olsun*/
+    left:65px;
+    background-color: white;
+}
+
+label input {           /*Artik checkbox ile herhangi bir isimiz kalmadigi icin onu da ekrandan sildirdik boylelikle sadece buton kalmis oldu */
+    display:none;
+}
+
+#up {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: background-color .5s;
+    z-index: 1000;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  #up:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #up:active {
+    background-color: #555;
+  }
+
+  #up::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 1.5em;
+    line-height: 50px; /*Yukseklik 50px oldugu icin line height ile de ortalama islemeni kolaylikla gerceklestirebiliriz*/
+    color: #fff;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;  /*Bu sekilde kullanici back to top butonuna bastiginda sayfanin en ustune daha smooth bir sekilde ilerlemesini saglariz */
+    }
+  }
+

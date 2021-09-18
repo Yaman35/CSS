@@ -1,0 +1,25 @@
+.link1:active {   /*Linke tıkladığında arka plan değişir ve bırakınca eski haline döner*/
+
+    background-color: yellow;
+}
+
+.link2:focus {    /*Linke tıklayınca arka planı değişir ta ki başka bir yere tıklayana kadar da öyle kalır*/
+
+    background-color: blue;
+}
+
+
+.link3:link {   /*Henüz ziyaret edilmemis olan linklerin renkleri kırmızı olsun demektir*/
+
+    color:red ;
+}
+
+.link3:visited {  /*Daha önce ziyaret edilmiş olan linklerin renkleri gri olsun demektir*/
+
+    color:grey;
+}
+
+.link4:any-link { /*Link olma potsansiyeline sahip herşeyi seçer ve arka plan rengini yeşil yapar*/
+
+    background-color: green;
+}

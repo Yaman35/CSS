@@ -1,0 +1,16 @@
+ /*div.class1 {
+
+    max-width: 80%;  Max genişlik sayfanın %80 i kadar olsun demektir
+    min-width: 600px; Min genişlik 600 pixele geldiğinde artık küçülmez sabit kalsın demektir
+    height: 400px;
+    background-color: lime;
+} */
+
+div.class2 {
+
+    max-height: 80%;           
+    min-height: 400px;
+    width: 50%;
+    height: 500px;
+    background-color: teal;
+}

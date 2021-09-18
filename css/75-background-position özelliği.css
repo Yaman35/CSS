@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body {
+    
+    background-image: url(https://media.istockphoto.com/photos/fighter-jets-flying-over-the-clouds-at-sunset-picture-id1145066973?k=20&m=1145066973&s=612x612&w=0&h=SsxPsb8hHYRm6EphmlXA8cxhhy172IFEoGZKO5DKnvU=);
+    background-repeat: no-repeat;
+    background-position: center; /*Sayfanın merkezinde yer alır*/
+                      /*bottom; Sayfanın altında yer alır*/
+                      /*left; Sayfanın solunda yer alır*/
+                      /*right; Sayfanın saginda yer alır*/
+                      /*top; Sayfanın ustunde yer alır*/
+                      
+                      /*right top; Sayfanın sağ üstünde yer alır*/
+                      /*right bottom; Sayfanın sağ altında yer alır*/
+                      /*left top; Sayfanın sol üstünde yer alır*/
+                      /*left bottom; Sayfanın sol altında yer alır*/
+
+                      /*25px 10px; Soldan 25px üstten 10px boşluk bırakarak yerleştirir*/
+                      /*25px bottom; Soldan 25px boşluk bırakarak sayfanın altına yerleştirir*/
+                      /*25px 100%; Üstteki ile aynıdır.Soldan 25px boşluk bırakarak sayfanın altına yerleştirir*/
+                      /*25px 90%; Soldan 25px üstten %90 lık boşluk bırakarak yerleştirir*/
+                      /*50% 50%; Center ile aynıdır.Sayfanın tam merkezine koyar.Soldan ve üstten %50 lik boşluk bırakarak yerleştirir*/
+                      /*right 20px bottom; Sağdan 20 px lik boşluk bırakarak sayfanın altına yerleştirir*/
+                      /*right 20px bottom 10%; Sağdan 20 px lik boşluk bırakarak alttan da %10 luk boşluk bırakarak yerleştirir*/
+                      /*right 20px top 10%; Sağdan 20 px lik boşluk bırakarak üstten de %10 luk boşluk bırakarak yerleştirir*/
+}

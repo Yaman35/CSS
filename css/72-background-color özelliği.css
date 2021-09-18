@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+}
+
+div {
+    background-color:rgba(150, 150, 100, .5);
+    width: 300px;
+    height: 300px;
+}
+
+div:last-child {
+    background-color: transparent; /*Son div arka plan rengini kaldır demektir*/
+   /* background-color: unset;  şeklinde de yazılabilirdi*/
+}

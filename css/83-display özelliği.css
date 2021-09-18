@@ -1,0 +1,74 @@
+.div1 {
+
+    width: 100px;
+    height: 100px;
+    background-color:lime;
+    display: inline;        /*Böylelikle block bir etiketi inline bir etiket haline dönüştürdük*/
+
+}
+
+span {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block;         /*Böylelikle inline bir etiketi block bir etiket haline dönüştürdük*/
+}
+
+.span2 {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    display: inline-block;  /*Böylelikle hem inline hemde block özelliklerini gösterir*/
+}
+
+.center {
+
+    width: 100px;
+    height: 100px;
+    background-color:purple;
+    display: flex;         /*Aşağıdaki üç kod ile texti div içerisinde ortaladık*/
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.span3 {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    display: inline-block; 
+    visibility: hidden; /*Bu özellikle eleman gözükmez lakin kapsadığı alan aynı kalır varmış gibi*/
+                        /*visible yaparak açabiliriz*/
+}
+
+table {
+    width: 100%;        /*table etiketi kullanılarak yapılan tablo için*/
+}
+
+.table {                /*classı table olan div etiketinden table oluşturma,aşağıdaki kodların hepsi bu iş için*/
+    display: table;
+    border: 1px solid gray;
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 2px;       /*Border lar arası boşluk bırakabilmek için kullanılır*/
+    border-collapse: collapse; /*Tabloyu tek bir biçime göstermeye yarar*/
+                               /*separate ile de herbir satır ve sütunu ayrı ayrı gösterir*/
+}
+
+.thead {
+    display: table-header-group;
+}
+
+.tbody {
+    display:table-row-group;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display:table-cell;
+    border: 1px solid gray;
+   
+}

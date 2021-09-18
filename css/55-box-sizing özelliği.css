@@ -1,0 +1,11 @@
+div {
+
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+    padding: 15px;
+    border:10px solid black;
+    margin: auto;
+
+    box-sizing: border-box; /*Bu şekilde bütün padding border işlemlerini 200px lik ölçüler içerisinde yap demektir*/
+}
